@@ -1,0 +1,6 @@
+.page {
+  margin: 0 auto;
+  padding: 15px;
+  height: 100%;
+  background-color: var(--color-base);
+}

@@ -1,0 +1,11 @@
+.head {
+  width: 42px;
+  height: 42px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.headImg {
+  display: block;
+  width: 100%;
+}

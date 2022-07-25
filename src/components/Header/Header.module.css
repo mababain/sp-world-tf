@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.headerTitle {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.spLink {
+  text-decoration: none;
+  color: var(--color-font-base);
+  transition: color 0.2s;
+}
+
+.spLink:hover {
+  color: var(--color-accent);
+}
