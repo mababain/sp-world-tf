@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sp-world-tf/static/css/main.864a1349.css",
+    "main.js": "/sp-world-tf/static/js/main.15c4a4f4.js",
+    "static/js/787.1dfe17f0.chunk.js": "/sp-world-tf/static/js/787.1dfe17f0.chunk.js",
+    "index.html": "/sp-world-tf/index.html",
+    "main.864a1349.css.map": "/sp-world-tf/static/css/main.864a1349.css.map",
+    "main.15c4a4f4.js.map": "/sp-world-tf/static/js/main.15c4a4f4.js.map",
+    "787.1dfe17f0.chunk.js.map": "/sp-world-tf/static/js/787.1dfe17f0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.864a1349.css",
+    "static/js/main.15c4a4f4.js"
+  ]
+}
