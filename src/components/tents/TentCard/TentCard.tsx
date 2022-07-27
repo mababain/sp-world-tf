@@ -1,5 +1,5 @@
 import React from 'react'
-import { timeFormat } from '../../../utils/timeFormat'
+import { timeFormat } from '../../../utils'
 import { Button } from '../../Button/Button'
 import { PlayerHead } from '../../PlayerHead/PlayerHead'
 import { Tent } from '../module'

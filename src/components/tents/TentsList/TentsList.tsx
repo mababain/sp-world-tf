@@ -12,7 +12,7 @@ export const TentsList: React.FC<Props> = ({ tents }) => {
   return (
     <div className={classes.list}>
       {tents.map((tent) => (
-        <TentCard tent={tent} />
+        <TentCard tent={tent} key={tent.id} />
       ))}
     </div>
   )

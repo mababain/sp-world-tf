@@ -12,10 +12,10 @@
 
 .spLink {
   text-decoration: none;
-  color: var(--color-font-base);
+  color: var(--color-accent);
   transition: color 0.2s;
 }
 
 .spLink:hover {
-  color: var(--color-accent);
+  color: var(--color-font-base);
 }
