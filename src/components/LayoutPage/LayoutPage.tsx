@@ -1,5 +1,5 @@
 import React, { PropsWithChildren } from 'react'
-import { Header } from '../../components'
+import { Header } from '..'
 
 import classes from './LayoutPage.module.css'
 

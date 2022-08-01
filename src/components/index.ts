@@ -1,3 +1,6 @@
 export { Header } from './Header/Header'
 export { AuthButton } from './AuthButton/AuthButton'
 export { PlayerHead } from './PlayerHead/PlayerHead'
+export { Button } from './Button/Button'
+export { Modal } from './Modal/Modal'
+export { LayoutPage } from './LayoutPage/LayoutPage'

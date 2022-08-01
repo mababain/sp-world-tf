@@ -5,7 +5,7 @@ export interface Tent {
   status: string | ReservedTentStatus
 }
 
-interface ReservedTentStatus {
+export interface ReservedTentStatus {
   nickname: string
   expirationDate: string
 }

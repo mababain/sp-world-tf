@@ -3,4 +3,6 @@ html {
   --color-border: #303035;
   --color-font-base: #ffffff;
   --color-accent: #6563ee;
+  --color-modal-background: #000000;
+  --color-error: #ff0000;
 }

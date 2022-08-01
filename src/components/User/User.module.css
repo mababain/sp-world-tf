@@ -1,0 +1,9 @@
+.user {
+  transition: transform 0.2s linear;
+}
+
+.user:hover {
+  transform-origin: center;
+  transform: scale(1.15);
+  cursor: pointer;
+}

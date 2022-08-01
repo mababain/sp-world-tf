@@ -1,0 +1,1 @@
+export { getPriceByDays } from './getTentRentPrice'

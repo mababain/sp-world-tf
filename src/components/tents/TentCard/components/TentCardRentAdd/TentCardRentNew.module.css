@@ -1,0 +1,27 @@
+.inputRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.numberInput {
+  width: 60px;
+  height: 32px;
+  background-color: inherit;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  text-align: center;
+  font-size: 18px;
+  color: var(--color-font-base);
+  background-color: var(--color-accent);
+}
+
+.inputText {
+  margin-right: 16px;
+}
+
+.formButton {
+  margin-top: 16px;
+}

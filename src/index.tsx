@@ -5,11 +5,26 @@ import './variables.css'
 import './index.css'
 import { App } from './App'
 import reportWebVitals from './reportWebVitals'
+import { store } from './store'
+import { Provider } from 'react-redux'
+import { TUser } from './store/hooks'
+import { beforeReactMount } from './utils'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
+
+declare global {
+  interface Window {
+    userFetch: Promise<TUser | null>
+  }
+}
+
+beforeReactMount()
+
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>
 )
 
